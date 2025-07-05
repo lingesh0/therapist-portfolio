@@ -100,18 +100,6 @@ export default function Testimonials() {
     }
   };
 
-  const itemVariants = {
-    hidden: { opacity: 0, y: 30 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        duration: 0.6,
-        ease: "easeOut"
-      }
-    }
-  };
-
   return (
     <section className="section-padding bg-white">
       <div className="container-custom flex flex-col items-center">
@@ -162,7 +150,7 @@ export default function Testimonials() {
 
               {/* Testimonial Text */}
               <blockquote className="text-lg text-slate-700 leading-relaxed mb-8 italic">
-                "{testimonials[currentIndex].text}"
+                &quot;{testimonials[currentIndex].text}&quot;
               </blockquote>
 
               {/* Client Info */}

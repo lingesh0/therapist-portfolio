@@ -74,19 +74,19 @@ export default function About() {
                 Meet Dr. Serena Blake
               </h2>
               <p className="text-lg text-slate-600 leading-relaxed mb-6">
-                I'm a licensed clinical psychologist with over 8 years of experience helping adults 
-                navigate life's challenges. My approach combines evidence-based therapeutic techniques 
+                I&apos;m a licensed clinical psychologist with over 8 years of experience helping adults 
+                navigate life&apos;s challenges. My approach combines evidence-based therapeutic techniques 
                 with genuine compassion and understanding.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-6">
                 I specialize in anxiety disorders, relationship counseling, and trauma recovery. 
-                Whether you're struggling with overwhelming stress, relationship difficulties, 
+                Whether you&apos;re struggling with overwhelming stress, relationship difficulties, 
                 or healing from past experiences, I provide a safe, non-judgmental space for you 
                 to explore, heal, and grow.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed">
                 My practice is built on the belief that everyone deserves to live a fulfilling, 
-                meaningful life. I'm committed to helping you develop the tools and insights 
+                meaningful life. I&apos;m committed to helping you develop the tools and insights 
                 needed to create lasting positive change.
               </p>
             </div>

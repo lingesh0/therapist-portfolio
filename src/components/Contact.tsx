@@ -107,7 +107,7 @@ export default function Contact() {
     {
       icon: Clock,
       title: "Office Hours",
-      details: "In-person: Tue & Thu, 10 AM–6 PM\nVirtual: Mon, Wed & Fri, 1 PM–5 PM"
+      details: "In-person: Tue & Thu, 10 AM&ndash;6 PM\nVirtual: Mon, Wed & Fri, 1 PM&ndash;5 PM"
     }
   ];
 
@@ -180,7 +180,7 @@ export default function Contact() {
               <div className="text-center py-12">
                 <div className="w-16 h-16 bg-green-100 text-green-600 mx-auto rounded-full flex items-center justify-center mb-4 text-3xl">✓</div>
                 <h4 className="text-2xl font-semibold text-green-700 mb-2">Thank you!</h4>
-                <p className="text-green-600">Your message has been sent. I'll be in touch soon!</p>
+                <p className="text-green-600">Your message has been sent. I&apos;ll be in touch soon!</p>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-6 text-left">
@@ -228,7 +228,7 @@ export default function Contact() {
                     value={formData.message}
                     onChange={(e) => handleInputChange('message', e.target.value)}
                     className={`form-input${errors.message ? ' form-input-error' : ''}`}
-                    placeholder="Tell me a bit about what you're looking for..."
+                    placeholder="Tell me a bit about what you&apos;re looking for..."
                   />
                   {errors.message && <p className="text-sm text-red-500 mt-1">{errors.message}</p>}
                 </div>

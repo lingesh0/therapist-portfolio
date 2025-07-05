@@ -37,10 +37,6 @@ export default function FAQ() {
   const isInView = useInView(ref, { once: false, margin: "-100px" });
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
-  const toggleFAQ = (index: number) => {
-    setOpenIndex(openIndex === index ? null : index);
-  };
-
   return (
     <section className="section-padding bg-white">
       <div className="container-custom">
@@ -99,8 +95,8 @@ export default function FAQ() {
               Still have questions?
             </h3>
             <p className="text-slate-600 mb-6 max-w-2xl mx-auto">
-              I'm here to help you feel comfortable and informed about starting therapy. 
-              Don't hesitate to reach out with any questions or concerns.
+              I&apos;m here to help you feel comfortable and informed about starting therapy. 
+              Don&apos;t hesitate to reach out with any questions or concerns.
             </p>
             <motion.button
               whileHover={{ scale: 1.05 }}
